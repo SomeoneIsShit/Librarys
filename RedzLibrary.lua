@@ -16,15 +16,15 @@ local redzlib = {
 	Themes = {
 		Demon = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 0, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(80, 0, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 0, 0))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(50, 0, 0),
-			["Color Stroke"] = Color3.fromRGB(100, 0, 0),
-			["Color Theme"] = Color3.fromRGB(150, 0, 0),
-			["Color Text"] = Color3.fromRGB(255, 230, 230),
-			["Color Dark Text"] = Color3.fromRGB(200, 100, 100)
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 0, 0)),
+	ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 0, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(5, 0, 0))
+}),
+["Color Hub 2"] = Color3.fromRGB(15, 0, 0),
+["Color Stroke"] = Color3.fromRGB(25, 0, 0),
+["Color Theme"] = Color3.fromRGB(60, 0, 0),
+["Color Text"] = Color3.fromRGB(200, 150, 150),
+["Color Dark Text"] = Color3.fromRGB(100, 50, 50)
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
