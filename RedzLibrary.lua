@@ -1475,7 +1475,7 @@ function redzlib:MakeWindow(Configs)
 			BackgroundTransparency = 1,
 			TextXAlignment = "Left",
 			TextYAlignment = "Bottom",
-			TextSize = 8,
+			TextSize = 12,
 			Font = Enum.Font.Gotham,
 			Name = "SubTitle"
 		}), "DarkText")
